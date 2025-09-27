@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>graph_world</name>
+  <version>0.0.1</version>
+  <description>Graph corridor world for TurtleBot3</description>
+  <maintainer email="you@example.com">you</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>gazebo_ros</depend>
+  <depend>launch</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>turtlebot3_description</depend>
+
+  <export/>
+</package>

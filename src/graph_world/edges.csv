@@ -1,0 +1,8 @@
+from,to,seconds
+A,C,7.0
+C,G,7.0
+A,G,10.0
+A,B,8.0
+B,D,4.0
+D,G,6.0
+B,G,9.0

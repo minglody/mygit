@@ -1,0 +1,22 @@
+[0.392s] Invoking command in '/home/ming/turtle_ws/build/turtlebot3_example': PYTHONPATH=/home/ming/turtle_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ming/turtle_ws/install/lib/python3.10/site-packages:/home/ming/turtle_ws/install/lib/python3.10/site-packages:/home/ming/turtle_ws/build/turtlebot3_teleop:/home/ming/turtle_ws/build/turtlebot3_example:/home/ming/turtle_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ming/turtle_ws/build/turtlebot3_example/build --no-deps symlink_data
+[0.525s] running develop
+[0.610s] running egg_info
+[0.610s] writing turtlebot3_example.egg-info/PKG-INFO
+[0.610s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[0.610s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[0.610s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[0.610s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[0.611s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.611s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[0.612s] running build_ext
+[0.612s] Creating /home/ming/turtle_ws/install/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[0.612s] Installing turtlebot3_absolute_move script to /home/ming/turtle_ws/install/lib/turtlebot3_example
+[0.612s] Installing turtlebot3_interactive_marker script to /home/ming/turtle_ws/install/lib/turtlebot3_example
+[0.612s] Installing turtlebot3_obstacle_detection script to /home/ming/turtle_ws/install/lib/turtlebot3_example
+[0.612s] Installing turtlebot3_patrol_client script to /home/ming/turtle_ws/install/lib/turtlebot3_example
+[0.612s] Installing turtlebot3_patrol_server script to /home/ming/turtle_ws/install/lib/turtlebot3_example
+[0.612s] Installing turtlebot3_relative_move script to /home/ming/turtle_ws/install/lib/turtlebot3_example
+[0.612s] 
+[0.612s] Installed /home/ming/turtle_ws/build/turtlebot3_example
+[0.613s] running symlink_data
+[0.627s] Invoked command in '/home/ming/turtle_ws/build/turtlebot3_example' returned '0': PYTHONPATH=/home/ming/turtle_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ming/turtle_ws/install/lib/python3.10/site-packages:/home/ming/turtle_ws/install/lib/python3.10/site-packages:/home/ming/turtle_ws/build/turtlebot3_teleop:/home/ming/turtle_ws/build/turtlebot3_example:/home/ming/turtle_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ming/turtle_ws/build/turtlebot3_example/build --no-deps symlink_data

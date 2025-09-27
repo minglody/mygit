@@ -1,0 +1,1 @@
+/home/ming/turtle_ws/build/turtlebot3_manipulation_gazebo/ament_cmake_core/turtlebot3_manipulation_gazeboConfig-version.cmake

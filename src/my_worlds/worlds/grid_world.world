@@ -1,0 +1,26 @@
+<world name="grid_world">
+  <include>
+    <uri>model://ground_plane</uri>
+  </include>
+
+  <!-- 격자 무늬 바닥 -->
+  <model name="grid_plane">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <plane>
+            <size>20 20</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grid</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</world>
+

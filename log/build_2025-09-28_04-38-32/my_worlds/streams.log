@@ -1,0 +1,22 @@
+[0.208s] Invoking command in '/home/ming/turtle_ws/build/my_worlds': /usr/bin/cmake --build /home/ming/turtle_ws/build/my_worlds -- -j16 -l16
+[0.307s] Invoked command in '/home/ming/turtle_ws/build/my_worlds' returned '0': /usr/bin/cmake --build /home/ming/turtle_ws/build/my_worlds -- -j16 -l16
+[0.308s] Invoking command in '/home/ming/turtle_ws/build/my_worlds': /usr/bin/cmake --install /home/ming/turtle_ws/build/my_worlds
+[0.329s] -- Install configuration: ""
+[0.329s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/worlds
+[0.329s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/worlds/grid_world.world
+[0.329s] -- Up-to-date: /home/ming/turtle_ws/install/share/ament_index/resource_index/package_run_dependencies/my_worlds
+[0.329s] -- Up-to-date: /home/ming/turtle_ws/install/share/ament_index/resource_index/parent_prefix_path/my_worlds
+[0.329s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/environment/ament_prefix_path.sh
+[0.329s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/environment/ament_prefix_path.dsv
+[0.329s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/environment/path.sh
+[0.330s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/environment/path.dsv
+[0.330s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/local_setup.bash
+[0.330s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/local_setup.sh
+[0.330s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/local_setup.zsh
+[0.330s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/local_setup.dsv
+[0.330s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/package.dsv
+[0.330s] -- Up-to-date: /home/ming/turtle_ws/install/share/ament_index/resource_index/packages/my_worlds
+[0.330s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/cmake/my_worldsConfig.cmake
+[0.330s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/cmake/my_worldsConfig-version.cmake
+[0.330s] -- Up-to-date: /home/ming/turtle_ws/install/share/my_worlds/package.xml
+[0.347s] Invoked command in '/home/ming/turtle_ws/build/my_worlds' returned '0': /usr/bin/cmake --install /home/ming/turtle_ws/build/my_worlds

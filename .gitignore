@@ -1,0 +1,18 @@
+# colcon & build
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# 기타 임시/대용량
+*.bag
+*.mp4
+*.tmp
+*.bak

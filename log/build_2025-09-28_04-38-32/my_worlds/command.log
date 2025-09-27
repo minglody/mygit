@@ -1,0 +1,4 @@
+Invoking command in '/home/ming/turtle_ws/build/my_worlds': /usr/bin/cmake --build /home/ming/turtle_ws/build/my_worlds -- -j16 -l16
+Invoked command in '/home/ming/turtle_ws/build/my_worlds' returned '0': /usr/bin/cmake --build /home/ming/turtle_ws/build/my_worlds -- -j16 -l16
+Invoking command in '/home/ming/turtle_ws/build/my_worlds': /usr/bin/cmake --install /home/ming/turtle_ws/build/my_worlds
+Invoked command in '/home/ming/turtle_ws/build/my_worlds' returned '0': /usr/bin/cmake --install /home/ming/turtle_ws/build/my_worlds

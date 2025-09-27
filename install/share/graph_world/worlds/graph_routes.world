@@ -1,0 +1,5094 @@
+
+<sdf version="1.6">
+  <world name="graph_routes">
+    <include><uri>model://ground_plane</uri></include>
+    <include><uri>model://sun</uri></include>
+
+    <model name='node_A_seg0'>
+      <static>true</static>
+      <pose>-0.998795 -8.049068 0.500 0 0 -1.521708941583</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg1'>
+      <static>true</static>
+      <pose>-0.989177 -8.146730 0.500 0 0 -1.423534171158</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg2'>
+      <static>true</static>
+      <pose>-0.970031 -8.242980 0.500 0 0 -1.325359400733</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg3'>
+      <static>true</static>
+      <pose>-0.941544 -8.336890 0.500 0 0 -1.227184630309</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg4'>
+      <static>true</static>
+      <pose>-0.903989 -8.427555 0.500 0 0 -1.129009859884</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg5'>
+      <static>true</static>
+      <pose>-0.857729 -8.514103 0.500 0 0 -1.030835089459</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg6'>
+      <static>true</static>
+      <pose>-0.803208 -8.595699 0.500 0 0 -0.932660319034</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg7'>
+      <static>true</static>
+      <pose>-0.740951 -8.671559 0.500 0 0 -0.834485548610</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg8'>
+      <static>true</static>
+      <pose>-0.671559 -8.740951 0.500 0 0 -0.736310778185</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg9'>
+      <static>true</static>
+      <pose>-0.595699 -8.803208 0.500 0 0 -0.638136007760</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg10'>
+      <static>true</static>
+      <pose>-0.514103 -8.857729 0.500 0 0 -0.539961237336</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg11'>
+      <static>true</static>
+      <pose>-0.427555 -8.903989 0.500 0 0 -0.441786466911</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg12'>
+      <static>true</static>
+      <pose>-0.336890 -8.941544 0.500 0 0 -0.343611696486</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg13'>
+      <static>true</static>
+      <pose>-0.242980 -8.970031 0.500 0 0 -0.245436926062</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg14'>
+      <static>true</static>
+      <pose>-0.146730 -8.989177 0.500 0 0 -0.147262155637</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg15'>
+      <static>true</static>
+      <pose>-0.049068 -8.998795 0.500 0 0 -0.049087385212</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg16'>
+      <static>true</static>
+      <pose>0.049068 -8.998795 0.500 0 0 0.049087385212</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg17'>
+      <static>true</static>
+      <pose>0.146730 -8.989177 0.500 0 0 0.147262155637</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg18'>
+      <static>true</static>
+      <pose>0.242980 -8.970031 0.500 0 0 0.245436926062</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg19'>
+      <static>true</static>
+      <pose>0.336890 -8.941544 0.500 0 0 0.343611696486</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg20'>
+      <static>true</static>
+      <pose>0.427555 -8.903989 0.500 0 0 0.441786466911</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg21'>
+      <static>true</static>
+      <pose>0.514103 -8.857729 0.500 0 0 0.539961237336</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg22'>
+      <static>true</static>
+      <pose>0.595699 -8.803208 0.500 0 0 0.638136007760</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg23'>
+      <static>true</static>
+      <pose>0.671559 -8.740951 0.500 0 0 0.736310778185</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg24'>
+      <static>true</static>
+      <pose>0.740951 -8.671559 0.500 0 0 0.834485548610</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg25'>
+      <static>true</static>
+      <pose>0.803208 -8.595699 0.500 0 0 0.932660319034</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg26'>
+      <static>true</static>
+      <pose>0.857729 -8.514103 0.500 0 0 1.030835089459</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg27'>
+      <static>true</static>
+      <pose>0.903989 -8.427555 0.500 0 0 1.129009859884</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg28'>
+      <static>true</static>
+      <pose>0.941544 -8.336890 0.500 0 0 1.227184630309</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg29'>
+      <static>true</static>
+      <pose>0.970031 -8.242980 0.500 0 0 1.325359400733</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg30'>
+      <static>true</static>
+      <pose>0.989177 -8.146730 0.500 0 0 1.423534171158</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg31'>
+      <static>true</static>
+      <pose>0.998795 -8.049068 0.500 0 0 1.521708941583</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg32'>
+      <static>true</static>
+      <pose>0.998795 -7.950932 0.500 0 0 1.619883712007</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg33'>
+      <static>true</static>
+      <pose>0.989177 -7.853270 0.500 0 0 1.718058482432</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg41'>
+      <static>true</static>
+      <pose>0.595699 -7.196792 0.500 0 0 2.503456645829</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg42'>
+      <static>true</static>
+      <pose>0.514103 -7.142271 0.500 0 0 2.601631416254</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg43'>
+      <static>true</static>
+      <pose>0.427555 -7.096011 0.500 0 0 2.699806186679</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg57'>
+      <static>true</static>
+      <pose>-0.803208 -7.404301 0.500 0 0 4.074252972624</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg58'>
+      <static>true</static>
+      <pose>-0.857729 -7.485897 0.500 0 0 4.172427743049</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg59'>
+      <static>true</static>
+      <pose>-0.903989 -7.572445 0.500 0 0 4.270602513474</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg60'>
+      <static>true</static>
+      <pose>-0.941544 -7.663110 0.500 0 0 4.368777283898</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg61'>
+      <static>true</static>
+      <pose>-0.970031 -7.757020 0.500 0 0 4.466952054323</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg62'>
+      <static>true</static>
+      <pose>-0.989177 -7.853270 0.500 0 0 4.565126824748</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_A_seg63'>
+      <static>true</static>
+      <pose>-0.998795 -7.950932 0.500 0 0 4.663301595172</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+
+    <model name='node_B_seg0'>
+      <static>true</static>
+      <pose>6.001205 -4.049068 0.500 0 0 -1.521708941583</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg1'>
+      <static>true</static>
+      <pose>6.010823 -4.146730 0.500 0 0 -1.423534171158</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg9'>
+      <static>true</static>
+      <pose>6.404301 -4.803208 0.500 0 0 -0.638136007760</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg10'>
+      <static>true</static>
+      <pose>6.485897 -4.857729 0.500 0 0 -0.539961237336</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg11'>
+      <static>true</static>
+      <pose>6.572445 -4.903989 0.500 0 0 -0.441786466911</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg12'>
+      <static>true</static>
+      <pose>6.663110 -4.941544 0.500 0 0 -0.343611696486</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg13'>
+      <static>true</static>
+      <pose>6.757020 -4.970031 0.500 0 0 -0.245436926062</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg14'>
+      <static>true</static>
+      <pose>6.853270 -4.989177 0.500 0 0 -0.147262155637</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg15'>
+      <static>true</static>
+      <pose>6.950932 -4.998795 0.500 0 0 -0.049087385212</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg16'>
+      <static>true</static>
+      <pose>7.049068 -4.998795 0.500 0 0 0.049087385212</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg17'>
+      <static>true</static>
+      <pose>7.146730 -4.989177 0.500 0 0 0.147262155637</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg18'>
+      <static>true</static>
+      <pose>7.242980 -4.970031 0.500 0 0 0.245436926062</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg19'>
+      <static>true</static>
+      <pose>7.336890 -4.941544 0.500 0 0 0.343611696486</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg20'>
+      <static>true</static>
+      <pose>7.427555 -4.903989 0.500 0 0 0.441786466911</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg21'>
+      <static>true</static>
+      <pose>7.514103 -4.857729 0.500 0 0 0.539961237336</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg22'>
+      <static>true</static>
+      <pose>7.595699 -4.803208 0.500 0 0 0.638136007760</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg23'>
+      <static>true</static>
+      <pose>7.671559 -4.740951 0.500 0 0 0.736310778185</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg24'>
+      <static>true</static>
+      <pose>7.740951 -4.671559 0.500 0 0 0.834485548610</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg25'>
+      <static>true</static>
+      <pose>7.803208 -4.595699 0.500 0 0 0.932660319034</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg26'>
+      <static>true</static>
+      <pose>7.857729 -4.514103 0.500 0 0 1.030835089459</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg27'>
+      <static>true</static>
+      <pose>7.903989 -4.427555 0.500 0 0 1.129009859884</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg28'>
+      <static>true</static>
+      <pose>7.941544 -4.336890 0.500 0 0 1.227184630309</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg29'>
+      <static>true</static>
+      <pose>7.970031 -4.242980 0.500 0 0 1.325359400733</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg30'>
+      <static>true</static>
+      <pose>7.989177 -4.146730 0.500 0 0 1.423534171158</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg31'>
+      <static>true</static>
+      <pose>7.998795 -4.049068 0.500 0 0 1.521708941583</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg32'>
+      <static>true</static>
+      <pose>7.998795 -3.950932 0.500 0 0 1.619883712007</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg33'>
+      <static>true</static>
+      <pose>7.989177 -3.853270 0.500 0 0 1.718058482432</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg34'>
+      <static>true</static>
+      <pose>7.970031 -3.757020 0.500 0 0 1.816233252857</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg35'>
+      <static>true</static>
+      <pose>7.941544 -3.663110 0.500 0 0 1.914408023281</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg36'>
+      <static>true</static>
+      <pose>7.903989 -3.572445 0.500 0 0 2.012582793706</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg37'>
+      <static>true</static>
+      <pose>7.857729 -3.485897 0.500 0 0 2.110757564131</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg38'>
+      <static>true</static>
+      <pose>7.803208 -3.404301 0.500 0 0 2.208932334555</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg39'>
+      <static>true</static>
+      <pose>7.740951 -3.328441 0.500 0 0 2.307107104980</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg40'>
+      <static>true</static>
+      <pose>7.671559 -3.259049 0.500 0 0 2.405281875405</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg41'>
+      <static>true</static>
+      <pose>7.595699 -3.196792 0.500 0 0 2.503456645829</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg42'>
+      <static>true</static>
+      <pose>7.514103 -3.142271 0.500 0 0 2.601631416254</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg43'>
+      <static>true</static>
+      <pose>7.427555 -3.096011 0.500 0 0 2.699806186679</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg57'>
+      <static>true</static>
+      <pose>6.196792 -3.404301 0.500 0 0 4.074252972624</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg58'>
+      <static>true</static>
+      <pose>6.142271 -3.485897 0.500 0 0 4.172427743049</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg59'>
+      <static>true</static>
+      <pose>6.096011 -3.572445 0.500 0 0 4.270602513474</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg60'>
+      <static>true</static>
+      <pose>6.058456 -3.663110 0.500 0 0 4.368777283898</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg61'>
+      <static>true</static>
+      <pose>6.029969 -3.757020 0.500 0 0 4.466952054323</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg62'>
+      <static>true</static>
+      <pose>6.010823 -3.853270 0.500 0 0 4.565126824748</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_B_seg63'>
+      <static>true</static>
+      <pose>6.001205 -3.950932 0.500 0 0 4.663301595172</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+
+    <model name='node_C_seg0'>
+      <static>true</static>
+      <pose>-5.998795 -0.049068 0.500 0 0 -1.521708941583</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg1'>
+      <static>true</static>
+      <pose>-5.989177 -0.146730 0.500 0 0 -1.423534171158</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg2'>
+      <static>true</static>
+      <pose>-5.970031 -0.242980 0.500 0 0 -1.325359400733</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg3'>
+      <static>true</static>
+      <pose>-5.941544 -0.336890 0.500 0 0 -1.227184630309</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg4'>
+      <static>true</static>
+      <pose>-5.903989 -0.427555 0.500 0 0 -1.129009859884</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg5'>
+      <static>true</static>
+      <pose>-5.857729 -0.514103 0.500 0 0 -1.030835089459</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg6'>
+      <static>true</static>
+      <pose>-5.803208 -0.595699 0.500 0 0 -0.932660319034</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg7'>
+      <static>true</static>
+      <pose>-5.740951 -0.671559 0.500 0 0 -0.834485548610</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg8'>
+      <static>true</static>
+      <pose>-5.671559 -0.740951 0.500 0 0 -0.736310778185</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg9'>
+      <static>true</static>
+      <pose>-5.595699 -0.803208 0.500 0 0 -0.638136007760</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg10'>
+      <static>true</static>
+      <pose>-5.514103 -0.857729 0.500 0 0 -0.539961237336</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg11'>
+      <static>true</static>
+      <pose>-5.427555 -0.903989 0.500 0 0 -0.441786466911</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg12'>
+      <static>true</static>
+      <pose>-5.336890 -0.941544 0.500 0 0 -0.343611696486</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg13'>
+      <static>true</static>
+      <pose>-5.242980 -0.970031 0.500 0 0 -0.245436926062</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg14'>
+      <static>true</static>
+      <pose>-5.146730 -0.989177 0.500 0 0 -0.147262155637</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg15'>
+      <static>true</static>
+      <pose>-5.049068 -0.998795 0.500 0 0 -0.049087385212</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg16'>
+      <static>true</static>
+      <pose>-4.950932 -0.998795 0.500 0 0 0.049087385212</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg17'>
+      <static>true</static>
+      <pose>-4.853270 -0.989177 0.500 0 0 0.147262155637</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg25'>
+      <static>true</static>
+      <pose>-4.196792 -0.595699 0.500 0 0 0.932660319034</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg26'>
+      <static>true</static>
+      <pose>-4.142271 -0.514103 0.500 0 0 1.030835089459</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg27'>
+      <static>true</static>
+      <pose>-4.096011 -0.427555 0.500 0 0 1.129009859884</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg28'>
+      <static>true</static>
+      <pose>-4.058456 -0.336890 0.500 0 0 1.227184630309</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg29'>
+      <static>true</static>
+      <pose>-4.029969 -0.242980 0.500 0 0 1.325359400733</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg30'>
+      <static>true</static>
+      <pose>-4.010823 -0.146730 0.500 0 0 1.423534171158</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg31'>
+      <static>true</static>
+      <pose>-4.001205 -0.049068 0.500 0 0 1.521708941583</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg32'>
+      <static>true</static>
+      <pose>-4.001205 0.049068 0.500 0 0 1.619883712007</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg33'>
+      <static>true</static>
+      <pose>-4.010823 0.146730 0.500 0 0 1.718058482432</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg34'>
+      <static>true</static>
+      <pose>-4.029969 0.242980 0.500 0 0 1.816233252857</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg35'>
+      <static>true</static>
+      <pose>-4.058456 0.336890 0.500 0 0 1.914408023281</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg36'>
+      <static>true</static>
+      <pose>-4.096011 0.427555 0.500 0 0 2.012582793706</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg37'>
+      <static>true</static>
+      <pose>-4.142271 0.514103 0.500 0 0 2.110757564131</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg38'>
+      <static>true</static>
+      <pose>-4.196792 0.595699 0.500 0 0 2.208932334555</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg46'>
+      <static>true</static>
+      <pose>-4.853270 0.989177 0.500 0 0 2.994330497953</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg47'>
+      <static>true</static>
+      <pose>-4.950932 0.998795 0.500 0 0 3.092505268377</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg48'>
+      <static>true</static>
+      <pose>-5.049068 0.998795 0.500 0 0 3.190680038802</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg49'>
+      <static>true</static>
+      <pose>-5.146730 0.989177 0.500 0 0 3.288854809227</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg50'>
+      <static>true</static>
+      <pose>-5.242980 0.970031 0.500 0 0 3.387029579651</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg51'>
+      <static>true</static>
+      <pose>-5.336890 0.941544 0.500 0 0 3.485204350076</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg52'>
+      <static>true</static>
+      <pose>-5.427555 0.903989 0.500 0 0 3.583379120501</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg53'>
+      <static>true</static>
+      <pose>-5.514103 0.857729 0.500 0 0 3.681553890926</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg54'>
+      <static>true</static>
+      <pose>-5.595699 0.803208 0.500 0 0 3.779728661350</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg55'>
+      <static>true</static>
+      <pose>-5.671559 0.740951 0.500 0 0 3.877903431775</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg56'>
+      <static>true</static>
+      <pose>-5.740951 0.671559 0.500 0 0 3.976078202200</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg57'>
+      <static>true</static>
+      <pose>-5.803208 0.595699 0.500 0 0 4.074252972624</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg58'>
+      <static>true</static>
+      <pose>-5.857729 0.514103 0.500 0 0 4.172427743049</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg59'>
+      <static>true</static>
+      <pose>-5.903989 0.427555 0.500 0 0 4.270602513474</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg60'>
+      <static>true</static>
+      <pose>-5.941544 0.336890 0.500 0 0 4.368777283898</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg61'>
+      <static>true</static>
+      <pose>-5.970031 0.242980 0.500 0 0 4.466952054323</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg62'>
+      <static>true</static>
+      <pose>-5.989177 0.146730 0.500 0 0 4.565126824748</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_C_seg63'>
+      <static>true</static>
+      <pose>-5.998795 0.049068 0.500 0 0 4.663301595172</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+
+    <model name='node_D_seg0'>
+      <static>true</static>
+      <pose>6.001205 0.950932 0.500 0 0 -1.521708941583</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg1'>
+      <static>true</static>
+      <pose>6.010823 0.853270 0.500 0 0 -1.423534171158</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg2'>
+      <static>true</static>
+      <pose>6.029969 0.757020 0.500 0 0 -1.325359400733</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg3'>
+      <static>true</static>
+      <pose>6.058456 0.663110 0.500 0 0 -1.227184630309</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg4'>
+      <static>true</static>
+      <pose>6.096011 0.572445 0.500 0 0 -1.129009859884</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg5'>
+      <static>true</static>
+      <pose>6.142271 0.485897 0.500 0 0 -1.030835089459</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg6'>
+      <static>true</static>
+      <pose>6.196792 0.404301 0.500 0 0 -0.932660319034</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg7'>
+      <static>true</static>
+      <pose>6.259049 0.328441 0.500 0 0 -0.834485548610</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg8'>
+      <static>true</static>
+      <pose>6.328441 0.259049 0.500 0 0 -0.736310778185</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg9'>
+      <static>true</static>
+      <pose>6.404301 0.196792 0.500 0 0 -0.638136007760</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg10'>
+      <static>true</static>
+      <pose>6.485897 0.142271 0.500 0 0 -0.539961237336</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg11'>
+      <static>true</static>
+      <pose>6.572445 0.096011 0.500 0 0 -0.441786466911</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg20'>
+      <static>true</static>
+      <pose>7.427555 0.096011 0.500 0 0 0.441786466911</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg21'>
+      <static>true</static>
+      <pose>7.514103 0.142271 0.500 0 0 0.539961237336</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg22'>
+      <static>true</static>
+      <pose>7.595699 0.196792 0.500 0 0 0.638136007760</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg23'>
+      <static>true</static>
+      <pose>7.671559 0.259049 0.500 0 0 0.736310778185</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg24'>
+      <static>true</static>
+      <pose>7.740951 0.328441 0.500 0 0 0.834485548610</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg25'>
+      <static>true</static>
+      <pose>7.803208 0.404301 0.500 0 0 0.932660319034</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg26'>
+      <static>true</static>
+      <pose>7.857729 0.485897 0.500 0 0 1.030835089459</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg27'>
+      <static>true</static>
+      <pose>7.903989 0.572445 0.500 0 0 1.129009859884</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg28'>
+      <static>true</static>
+      <pose>7.941544 0.663110 0.500 0 0 1.227184630309</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg29'>
+      <static>true</static>
+      <pose>7.970031 0.757020 0.500 0 0 1.325359400733</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg30'>
+      <static>true</static>
+      <pose>7.989177 0.853270 0.500 0 0 1.423534171158</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg31'>
+      <static>true</static>
+      <pose>7.998795 0.950932 0.500 0 0 1.521708941583</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg32'>
+      <static>true</static>
+      <pose>7.998795 1.049068 0.500 0 0 1.619883712007</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg33'>
+      <static>true</static>
+      <pose>7.989177 1.146730 0.500 0 0 1.718058482432</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg34'>
+      <static>true</static>
+      <pose>7.970031 1.242980 0.500 0 0 1.816233252857</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg35'>
+      <static>true</static>
+      <pose>7.941544 1.336890 0.500 0 0 1.914408023281</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg36'>
+      <static>true</static>
+      <pose>7.903989 1.427555 0.500 0 0 2.012582793706</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg37'>
+      <static>true</static>
+      <pose>7.857729 1.514103 0.500 0 0 2.110757564131</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg38'>
+      <static>true</static>
+      <pose>7.803208 1.595699 0.500 0 0 2.208932334555</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg39'>
+      <static>true</static>
+      <pose>7.740951 1.671559 0.500 0 0 2.307107104980</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg40'>
+      <static>true</static>
+      <pose>7.671559 1.740951 0.500 0 0 2.405281875405</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg41'>
+      <static>true</static>
+      <pose>7.595699 1.803208 0.500 0 0 2.503456645829</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg42'>
+      <static>true</static>
+      <pose>7.514103 1.857729 0.500 0 0 2.601631416254</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg43'>
+      <static>true</static>
+      <pose>7.427555 1.903989 0.500 0 0 2.699806186679</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg44'>
+      <static>true</static>
+      <pose>7.336890 1.941544 0.500 0 0 2.797980957103</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg45'>
+      <static>true</static>
+      <pose>7.242980 1.970031 0.500 0 0 2.896155727528</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg46'>
+      <static>true</static>
+      <pose>7.146730 1.989177 0.500 0 0 2.994330497953</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg47'>
+      <static>true</static>
+      <pose>7.049068 1.998795 0.500 0 0 3.092505268377</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg48'>
+      <static>true</static>
+      <pose>6.950932 1.998795 0.500 0 0 3.190680038802</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg49'>
+      <static>true</static>
+      <pose>6.853270 1.989177 0.500 0 0 3.288854809227</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg50'>
+      <static>true</static>
+      <pose>6.757020 1.970031 0.500 0 0 3.387029579651</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg51'>
+      <static>true</static>
+      <pose>6.663110 1.941544 0.500 0 0 3.485204350076</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg60'>
+      <static>true</static>
+      <pose>6.058456 1.336890 0.500 0 0 4.368777283898</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg61'>
+      <static>true</static>
+      <pose>6.029969 1.242980 0.500 0 0 4.466952054323</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg62'>
+      <static>true</static>
+      <pose>6.010823 1.146730 0.500 0 0 4.565126824748</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_D_seg63'>
+      <static>true</static>
+      <pose>6.001205 1.049068 0.500 0 0 4.663301595172</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+
+    <model name='node_G_seg0'>
+      <static>true</static>
+      <pose>-0.998795 7.950932 0.500 0 0 -1.521708941583</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg1'>
+      <static>true</static>
+      <pose>-0.989177 7.853270 0.500 0 0 -1.423534171158</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg2'>
+      <static>true</static>
+      <pose>-0.970031 7.757020 0.500 0 0 -1.325359400733</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg3'>
+      <static>true</static>
+      <pose>-0.941544 7.663110 0.500 0 0 -1.227184630309</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg4'>
+      <static>true</static>
+      <pose>-0.903989 7.572445 0.500 0 0 -1.129009859884</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg5'>
+      <static>true</static>
+      <pose>-0.857729 7.485897 0.500 0 0 -1.030835089459</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg6'>
+      <static>true</static>
+      <pose>-0.803208 7.404301 0.500 0 0 -0.932660319034</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg28'>
+      <static>true</static>
+      <pose>0.941544 7.663110 0.500 0 0 1.227184630309</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg29'>
+      <static>true</static>
+      <pose>0.970031 7.757020 0.500 0 0 1.325359400733</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg30'>
+      <static>true</static>
+      <pose>0.989177 7.853270 0.500 0 0 1.423534171158</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg31'>
+      <static>true</static>
+      <pose>0.998795 7.950932 0.500 0 0 1.521708941583</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg32'>
+      <static>true</static>
+      <pose>0.998795 8.049068 0.500 0 0 1.619883712007</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg33'>
+      <static>true</static>
+      <pose>0.989177 8.146730 0.500 0 0 1.718058482432</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg34'>
+      <static>true</static>
+      <pose>0.970031 8.242980 0.500 0 0 1.816233252857</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg35'>
+      <static>true</static>
+      <pose>0.941544 8.336890 0.500 0 0 1.914408023281</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg36'>
+      <static>true</static>
+      <pose>0.903989 8.427555 0.500 0 0 2.012582793706</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg37'>
+      <static>true</static>
+      <pose>0.857729 8.514103 0.500 0 0 2.110757564131</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg38'>
+      <static>true</static>
+      <pose>0.803208 8.595699 0.500 0 0 2.208932334555</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg39'>
+      <static>true</static>
+      <pose>0.740951 8.671559 0.500 0 0 2.307107104980</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg40'>
+      <static>true</static>
+      <pose>0.671559 8.740951 0.500 0 0 2.405281875405</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg41'>
+      <static>true</static>
+      <pose>0.595699 8.803208 0.500 0 0 2.503456645829</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg42'>
+      <static>true</static>
+      <pose>0.514103 8.857729 0.500 0 0 2.601631416254</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg43'>
+      <static>true</static>
+      <pose>0.427555 8.903989 0.500 0 0 2.699806186679</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg44'>
+      <static>true</static>
+      <pose>0.336890 8.941544 0.500 0 0 2.797980957103</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg45'>
+      <static>true</static>
+      <pose>0.242980 8.970031 0.500 0 0 2.896155727528</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg46'>
+      <static>true</static>
+      <pose>0.146730 8.989177 0.500 0 0 2.994330497953</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg47'>
+      <static>true</static>
+      <pose>0.049068 8.998795 0.500 0 0 3.092505268377</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg48'>
+      <static>true</static>
+      <pose>-0.049068 8.998795 0.500 0 0 3.190680038802</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg49'>
+      <static>true</static>
+      <pose>-0.146730 8.989177 0.500 0 0 3.288854809227</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg50'>
+      <static>true</static>
+      <pose>-0.242980 8.970031 0.500 0 0 3.387029579651</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg51'>
+      <static>true</static>
+      <pose>-0.336890 8.941544 0.500 0 0 3.485204350076</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg52'>
+      <static>true</static>
+      <pose>-0.427555 8.903989 0.500 0 0 3.583379120501</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg53'>
+      <static>true</static>
+      <pose>-0.514103 8.857729 0.500 0 0 3.681553890926</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg54'>
+      <static>true</static>
+      <pose>-0.595699 8.803208 0.500 0 0 3.779728661350</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg55'>
+      <static>true</static>
+      <pose>-0.671559 8.740951 0.500 0 0 3.877903431775</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg56'>
+      <static>true</static>
+      <pose>-0.740951 8.671559 0.500 0 0 3.976078202200</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg57'>
+      <static>true</static>
+      <pose>-0.803208 8.595699 0.500 0 0 4.074252972624</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg58'>
+      <static>true</static>
+      <pose>-0.857729 8.514103 0.500 0 0 4.172427743049</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg59'>
+      <static>true</static>
+      <pose>-0.903989 8.427555 0.500 0 0 4.270602513474</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg60'>
+      <static>true</static>
+      <pose>-0.941544 8.336890 0.500 0 0 4.368777283898</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg61'>
+      <static>true</static>
+      <pose>-0.970031 8.242980 0.500 0 0 4.466952054323</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg62'>
+      <static>true</static>
+      <pose>-0.989177 8.146730 0.500 0 0 4.565126824748</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='node_G_seg63'>
+      <static>true</static>
+      <pose>-0.998795 8.049068 0.500 0 0 4.663301595172</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+
+          <material>
+            <ambient>0 0 1 0.05</ambient>
+            <diffuse>0 0 1 0.05</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+            <emissive>0 0 0 1</emissive>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>0.09817477042468103 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+
+    <model name='edge0_L'>
+      <static>true</static>
+      <pose>-2.712000 -4.132500 0.500 0 0 2.129395642138</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>7.383981132056603 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>7.383981132056603 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='edge0_R'>
+      <static>true</static>
+      <pose>-2.288000 -3.867500 0.500 0 0 2.129395642138</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>7.383981132056603 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>7.383981132056603 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+
+    <model name='edge1_L'>
+      <static>true</static>
+      <pose>-2.712000 4.132500 0.500 0 0 1.012197011451</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>7.383981132056603 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>7.383981132056603 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='edge1_R'>
+      <static>true</static>
+      <pose>-2.288000 3.867500 0.500 0 0 1.012197011451</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>7.383981132056603 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>7.383981132056603 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+
+    <model name='edge2_L'>
+      <static>true</static>
+      <pose>-0.250000 0.000000 0.500 0 0 1.570796326795</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>13.95 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>13.95 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='edge2_R'>
+      <static>true</static>
+      <pose>0.250000 0.000000 0.500 0 0 1.570796326795</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>13.95 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>13.95 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+
+    <model name='edge3_L'>
+      <static>true</static>
+      <pose>3.375965 -5.782939 0.500 0 0 0.519146114247</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>6.012257748298549 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>6.012257748298549 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='edge3_R'>
+      <static>true</static>
+      <pose>3.624035 -6.217061 0.500 0 0 0.519146114247</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>6.012257748298549 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>6.012257748298549 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+
+    <model name='edge4_L'>
+      <static>true</static>
+      <pose>6.750000 -1.500000 0.500 0 0 1.570796326795</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>2.95 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>2.95 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='edge4_R'>
+      <static>true</static>
+      <pose>7.250000 -1.500000 0.500 0 0 1.570796326795</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>2.95 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>2.95 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+
+    <model name='edge5_L'>
+      <static>true</static>
+      <pose>3.323223 4.323223 0.500 0 0 2.356194490192</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>7.8494949366116655 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>7.8494949366116655 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='edge5_R'>
+      <static>true</static>
+      <pose>3.676777 4.676777 0.500 0 0 2.356194490192</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>7.8494949366116655 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>7.8494949366116655 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+
+    <model name='edge6_L'>
+      <static>true</static>
+      <pose>3.284055 1.874032 0.500 0 0 2.098870775221</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>11.842443989449803 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>11.842443989449803 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <model name='edge6_R'>
+      <static>true</static>
+      <pose>3.715945 2.125968 0.500 0 0 2.098870775221</pose>
+      <link name='link'>
+        <visual name='vis'>
+          <geometry><box><size>11.842443989449803 0.1 1.0</size></box></geometry>
+
+          <material>
+            <script><uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/DarkGrey</name></script>
+          </material>
+
+        </visual>
+        <collision name='col'>
+          <geometry><box><size>11.842443989449803 0.1 1.0</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+  </world>
+</sdf>

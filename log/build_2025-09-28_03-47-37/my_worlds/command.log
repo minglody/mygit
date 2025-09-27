@@ -1,0 +1,6 @@
+Invoking command in '/home/ming/turtle_ws/build/my_worlds': /usr/bin/cmake /home/ming/turtle_ws/src/my_worlds -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ming/turtle_ws/install
+Invoked command in '/home/ming/turtle_ws/build/my_worlds' returned '0': /usr/bin/cmake /home/ming/turtle_ws/src/my_worlds -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ming/turtle_ws/install
+Invoking command in '/home/ming/turtle_ws/build/my_worlds': /usr/bin/cmake --build /home/ming/turtle_ws/build/my_worlds -- -j16 -l16
+Invoked command in '/home/ming/turtle_ws/build/my_worlds' returned '0': /usr/bin/cmake --build /home/ming/turtle_ws/build/my_worlds -- -j16 -l16
+Invoking command in '/home/ming/turtle_ws/build/my_worlds': /usr/bin/cmake --install /home/ming/turtle_ws/build/my_worlds
+Invoked command in '/home/ming/turtle_ws/build/my_worlds' returned '0': /usr/bin/cmake --install /home/ming/turtle_ws/build/my_worlds

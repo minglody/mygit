@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_worlds</name>
+  <version>0.0.1</version>
+  <description>My custom Gazebo worlds</description>
+  <maintainer email="you@example.com">You</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <export/>
+</package>
+

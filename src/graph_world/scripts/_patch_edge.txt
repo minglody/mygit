@@ -1,0 +1,27 @@
+# === PATCH: 간선 벽 길이 클립 + 노드 가장자리에서 멈춤 ===
+CLIP_GAP = 0.05   # 노드 외곽에서 살짝 띄우는 여유 (m)
+
+def edge_walls_sdf(idx, p, q, seconds):
+    x1,y1 = p; x2,y2 = q
+    dx,dy = x2-x1, y2-y1
+    yaw   = math.atan2(dy, dx)
+    nx,ny = unit_normal(dx, dy)
+    off   = LANE_WIDTH/2.0
+
+    # 1) 시간으로부터 원하는 길이
+    desired = seconds * SCALE_MPS
+
+    # 2) 기하학적으로 가능한 최대 길이(노드 경계까지)
+    center_dist   = math.hypot(dx, dy)
+    geom_max      = max(0.0, center_dist - 2.0*NODE_RADIUS - CLIP_GAP)
+
+    # 3) 실제 사용 길이 = min(원하는 길이, 기하 최대치)
+    length = min(desired, geom_max)
+
+    # 4) 중점 배치(노드 안으로 들어가지 않음)
+    midx, midy = (x1+x2)/2.0, (y1+y2)/2.0
+    cxL, cyL   = midx + nx*off, midy + ny*off
+    cxR, cyR   = midx - nx*off, midy - ny*off
+
+    return wall_box_sdf(f"edge{idx}_L", cxL, cyL, yaw, length) + \
+           wall_box_sdf(f"edge{idx}_R", cxR, cyR, yaw, length)

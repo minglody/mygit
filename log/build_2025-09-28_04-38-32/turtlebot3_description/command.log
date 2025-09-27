@@ -1,0 +1,4 @@
+Invoking command in '/home/ming/turtle_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ming/turtle_ws/build/turtlebot3_description -- -j16 -l16
+Invoked command in '/home/ming/turtle_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ming/turtle_ws/build/turtlebot3_description -- -j16 -l16
+Invoking command in '/home/ming/turtle_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ming/turtle_ws/build/turtlebot3_description
+Invoked command in '/home/ming/turtle_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ming/turtle_ws/build/turtlebot3_description
